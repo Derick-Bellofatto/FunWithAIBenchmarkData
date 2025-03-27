@@ -28,6 +28,10 @@
     <Compile Include="mainPackage\__init__.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Bellofdk\Bellofdk.py" />
+    <Compile Include="Bellofdk\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PDFPackage\PDFUtilities.py">
       <SubType>Code</SubType>
     </Compile>
@@ -56,11 +60,13 @@
     <Folder Include="dataPackage\MMLU\data\" />
     <Folder Include="dataPackage\MMLU\results\" />
     <Folder Include="mainPackage\" />
+    <Folder Include="Bellofdk\" />
     <Folder Include="PDFPackage\" />
     <Folder Include="readingLevelPackage\" />
     <Folder Include="utilitiesPackage\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Bellofdk\team_logo.png" />
     <Content Include="dataPackage\MMLU\data\abstract_algebra_test.csv" />
     <Content Include="dataPackage\MMLU\data\anatomy_test.csv" />
     <Content Include="dataPackage\MMLU\data\astronomy_test.csv" />
