@@ -29,7 +29,7 @@ def Bellofdk():
     # --- Internal: Open PNG Image ---
     def display_team_image():
         image_path = os.path.join('bellofdk', 'team_logo.png')
-        print("\nOpening Helpful Hawk team logo image...\n")
+        print("\nOpening Friendly Falcons team logo image...\n")
         try:
             if platform.system() == "Darwin":  # macOS
                 os.system(f"open {image_path}")
